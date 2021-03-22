@@ -1,8 +1,17 @@
 import React from "react";
 import "./Navbar.css";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
+import {
+  BiHome,
+  BiMessageMinus,
+  BiMedal,
+  BiNote,
+  BiUser,
+  BiArrowToBottom,
+} from "react-icons/bi";
+import { FaLinkedin, FaGithub, FaInstagram, FaFacebook } from "react-icons/fa";
 
 function Navbar() {
   const [click, changeClick] = useState(false);
@@ -11,44 +20,96 @@ function Navbar() {
     changeClick(!click);
   };
   return (
-    <div className="navbar-items">
-      <h2 className="portfolio-text">Portfolio</h2>
-      <div className="menu-icon" onClick={handleClick}>
-        {click ? <MdClose /> : <FiMenu />}
+    <>
+      <div className="navbar-items">
+        <h2 className="portfolio-text">Portfolio</h2>
+        <div className="menu-icon" onClick={handleClick}>
+          {click ? <MdClose /> : <FiMenu />}
+        </div>
+        <ul className={click ? "nav-menu  active" : "nav-menu"}>
+          <li>
+            <a className="nav-links" href="#">
+              {" "}
+              <span className="navigation-icon">
+                <BiHome />
+              </span>
+              HOME
+            </a>
+          </li>
+          <li>
+            <a className="nav-links" href="#">
+              {" "}
+              <span className="navigation-icon">
+                <BiMessageMinus />
+              </span>
+              ABOUT
+            </a>
+          </li>
+          <li>
+            <a className="nav-links" href="#">
+              {" "}
+              <span className="navigation-icon">
+                <BiMedal />
+              </span>
+              SKILLS
+            </a>
+          </li>
+          <li>
+            <a className="nav-links" href="#">
+              {" "}
+              <span className="navigation-icon">
+                <BiNote />
+              </span>
+              PROJECTS
+            </a>
+          </li>
+          <li>
+            <a className="nav-links" href="#">
+              {" "}
+              <span className="navigation-icon">
+                <BiUser />
+              </span>
+              CONTACT
+            </a>
+          </li>
+        </ul>
       </div>
-      <ul className={click ? "nav-menu  active" : "nav-menu"}>
-        <li>
-          <a className="nav-links" href="#">
+
+      <div className={click ? "social-icons  active" : "social-icons"}>
+        <div>
+          {" "}
+          <a href="#">
             {" "}
-            HOME
+            <FaFacebook className="facebook" />
           </a>
-        </li>
-        <li>
-          <a className="nav-links" href="#">
+        </div>
+        <div>
+          {" "}
+          <a href="#">
             {" "}
-            ABOUT
+            <FaInstagram className="instagram" />
           </a>
-        </li>
-        <li>
-          <a className="nav-links" href="#">
-            {" "}
-            SKILLS
+        </div>
+        <div>
+          {" "}
+          <a href="#">
+            <FaGithub className="github" />
           </a>
-        </li>
-        <li>
-          <a className="nav-links" href="#">
-            {" "}
-            PROJECTS
+        </div>
+        <div>
+          <a href="#">
+            <FaLinkedin className="linkedin" />
           </a>
-        </li>
-        <li>
-          <a className="nav-links" href="#">
-            {" "}
-            CONTACT
+        </div>
+        <div className="resume">
+          <a href="#">
+            <button className="resume-btn">
+              RESUME <BiArrowToBottom className="resume-icon" />
+            </button>
           </a>
-        </li>
-      </ul>
-    </div>
+        </div>
+      </div>
+    </>
   );
 }
 
