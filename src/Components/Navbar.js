@@ -9,27 +9,38 @@ import {
   BiMedal,
   BiNote,
   BiUser,
-  BiArrowToBottom,
 } from "react-icons/bi";
-import { FaLinkedin, FaGithub, FaInstagram, FaFacebook } from "react-icons/fa";
+import {
+  FaLinkedin,
+  FaGithub,
+  FaInstagram,
+  FaFacebook,
+  FaTwitter,
+} from "react-icons/fa";
 
 function Navbar() {
   const [click, changeClick] = useState(false);
+  const [scroll, isscrolled] = useState(false);
 
   const handleClick = (events) => {
     changeClick(!click);
   };
+  window.onscroll = () => {
+    window.scrollY > 10 ? isscrolled(true) : isscrolled(false);
+  };
+
   return (
     <>
-      <div className="navbar-items">
-        <h2 className="portfolio-text">Portfolio</h2>
+      <div className={scroll ? "navbar-items scrolled" : "navbar-items"}>
+        <h2 className="portfolio-text" className="text-color-logo">
+          Portfolio
+        </h2>
         <div className="menu-icon" onClick={handleClick}>
           {click ? <MdClose /> : <FiMenu />}
         </div>
         <ul className={click ? "nav-menu  active" : "nav-menu"}>
           <li>
-            <a className="nav-links" href="#">
-              {" "}
+            <a className={scroll ? "nav-links scrolled" : "nav-links"} href="#">
               <span className="navigation-icon">
                 <BiHome />
               </span>
@@ -37,8 +48,7 @@ function Navbar() {
             </a>
           </li>
           <li>
-            <a className="nav-links" href="#">
-              {" "}
+            <a className={scroll ? "nav-links scrolled" : "nav-links"} href="#">
               <span className="navigation-icon">
                 <BiMessageMinus />
               </span>
@@ -46,8 +56,7 @@ function Navbar() {
             </a>
           </li>
           <li>
-            <a className="nav-links" href="#">
-              {" "}
+            <a className={scroll ? "nav-links scrolled" : "nav-links"} href="#">
               <span className="navigation-icon">
                 <BiMedal />
               </span>
@@ -55,8 +64,7 @@ function Navbar() {
             </a>
           </li>
           <li>
-            <a className="nav-links" href="#">
-              {" "}
+            <a className={scroll ? "nav-links scrolled" : "nav-links"} href="#">
               <span className="navigation-icon">
                 <BiNote />
               </span>
@@ -64,8 +72,7 @@ function Navbar() {
             </a>
           </li>
           <li>
-            <a className="nav-links" href="#">
-              {" "}
+            <a className={scroll ? "nav-links scrolled" : "nav-links"} href="#">
               <span className="navigation-icon">
                 <BiUser />
               </span>
@@ -77,21 +84,16 @@ function Navbar() {
 
       <div className={click ? "social-icons  active" : "social-icons"}>
         <div>
-          {" "}
           <a href="#">
-            {" "}
             <FaFacebook className="facebook" />
           </a>
         </div>
         <div>
-          {" "}
           <a href="#">
-            {" "}
             <FaInstagram className="instagram" />
           </a>
         </div>
         <div>
-          {" "}
           <a href="#">
             <FaGithub className="github" />
           </a>
@@ -101,11 +103,9 @@ function Navbar() {
             <FaLinkedin className="linkedin" />
           </a>
         </div>
-        <div className="resume">
+        <div>
           <a href="#">
-            <button className="resume-btn">
-              RESUME <BiArrowToBottom className="resume-icon" />
-            </button>
+            <FaTwitter className="twitter" />
           </a>
         </div>
       </div>
