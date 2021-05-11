@@ -1,0 +1,99 @@
+.project-container {
+  /* background-color: yellow; */
+}
+.project-heading {
+  color: rgb(29, 255, 236);
+  /* text-align: center; */
+  margin-bottom: 2%;
+  font-size: 3rem;
+  font-weight: 500;
+  margin-left: 15%;
+}
+.project-heading::after {
+  content: "";
+  width: 67%;
+  height: 1px;
+  background-color: rgba(29, 255, 236, 0.541);
+  display: inline-block;
+  position: relative;
+  bottom: 9px;
+  margin-left: 2%;
+}
+
+.project-card-container {
+  /* display: flex;
+  justify-content: space-evenly;
+  margin-right: 1rem; */
+  margin-bottom: 2rem;
+}
+.project-card {
+  width: 70%;
+  margin-left: 15%;
+  height: 300px;
+  margin-bottom: 70px;
+  display: grid;
+  grid-template-columns: 1fr 0.6fr;
+  /* grid-gap: 10px; */
+  /* background-color: tomato; */
+  border-radius: 5px;
+  overflow: hidden;
+  /* box-shadow: 0px 0px 10px 0px rgba(137, 43, 226, 0.384); */
+  /* border: 0.1px solid blueviolet; */
+}
+.project-image img {
+  width: 100%;
+  border-radius: 5px;
+}
+.project-image {
+  background-color: rgb(61, 44, 81);
+}
+.about-project {
+  background-color: rgb(29, 19, 42);
+}
+.project-title {
+  /* width: 30%; */
+  font-size: 1.8rem;
+  margin: 1rem 0;
+  color: rgb(241, 240, 243);
+  /* border: yellow solid 1px; */
+  text-align: right;
+  padding-right: 2.3rem;
+}
+.project-description p {
+  color: white;
+  font-size: 1.5rem;
+  text-align: right;
+  padding-right: 2.3rem;
+}
+.tech-used {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-top: 2rem;
+  padding-left: 100px;
+  /* border: yellow 1px solid; */
+}
+.tech-used .tech-name {
+  background-color: rgba(198, 153, 252, 0.063);
+  color: white;
+  font-size: 1rem;
+  border: 2px solid rgb(198, 153, 252);
+  padding: 0.4rem;
+  border-radius: 5px;
+  margin: 0 0.5rem 0 0.5rem;
+}
+.projects-links {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: flex-end;
+}
+.projects-links a {
+  font-size: 2rem;
+  margin-right: 2rem;
+  text-decoration: none;
+  color: white;
+}
+.projects-links a:hover {
+  color: blueviolet;
+}

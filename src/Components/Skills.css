@@ -5,10 +5,21 @@
 }
 .skills_heading h1 {
   color: rgb(29, 255, 236);
-  text-align: center;
+  /* text-align: center; */
   margin-bottom: 2%;
   font-size: 3rem;
   font-weight: 500;
+  margin-left: 15%;
+}
+.skills_heading h1::after {
+  content: "";
+  width: 67%;
+  height: 1px;
+  background-color: rgba(29, 255, 236, 0.541);
+  display: inline-block;
+  position: relative;
+  bottom: 9px;
+  margin-left: 2%;
 }
 .skills_image_container {
   display: flex;
@@ -20,8 +31,9 @@
 }
 .skills_image_container .skill_image {
   height: 9rem;
-  box-shadow: 0px 0px 10px rgb(93, 224, 192);
-  border-radius: 7px;
+  /* box-shadow: 0px 0px 10px rgb(93, 224, 192); */
+  box-shadow: 0px 0px 10px rgba(93, 224, 191, 0.425);
+  border-radius: 30px;
   margin: 1rem;
   width: 10rem;
   text-align: center;

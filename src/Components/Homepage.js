@@ -3,18 +3,9 @@ import "./Homepage.css";
 import video from "../videos/Developer activity (2).mp4";
 import { BiArrowToBottom } from "react-icons/bi";
 import { Rotate, Zoom } from "react-reveal";
-import { init } from "ityped";
 import { useEffect } from "react";
 
 function Homepage() {
-  useEffect(() => {
-    const typing = document.querySelector("#typing");
-    init(typing, {
-      showCursor: true,
-      strings: ["I'm", "Web Developer", "Competitive Coder"],
-    });
-  }, []);
-
   return (
     <div className="home-container">
       <div className="homepage-intro">
@@ -30,9 +21,7 @@ function Homepage() {
           </Rotate>
         </p>
         <p>
-          <span className="text-color" id="typing">
-            {" "}
-          </span>
+          <span className="text-color" id="typing"></span>
         </p>
         <div className="resume-btn">
           <button>

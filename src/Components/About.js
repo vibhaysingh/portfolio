@@ -7,7 +7,7 @@ import { HiOutlineLightBulb } from "react-icons/hi";
 function About() {
   return (
     <div className="about-container">
-      <img className="greenDotimg" src={greeenDot} alt="" />
+      {/* <img className="greenDotimg" src={greeenDot} alt="" /> */}
       <Flip left>
         <h1 className="about-heading">About Me</h1>
       </Flip>

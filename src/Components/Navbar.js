@@ -47,14 +47,14 @@ function Navbar() {
               HOME
             </a>
           </li>
-          <li>
+          {/* <li>
             <a className={scroll ? "nav-links scrolled" : "nav-links"} href="#">
               <span className="navigation-icon">
                 <BiMessageMinus />
               </span>
               ABOUT
             </a>
-          </li>
+          </li> */}
           <li>
             <a className={scroll ? "nav-links scrolled" : "nav-links"} href="#">
               <span className="navigation-icon">

@@ -1,0 +1,53 @@
+.contact-container {
+  position: relative;
+}
+
+.contact-heading {
+  color: rgb(29, 255, 236);
+  /* text-align: center; */
+  margin-bottom: 2%;
+  font-size: 3rem;
+  font-weight: 500;
+  margin-left: 15%;
+}
+.contact-heading::after {
+  content: "";
+  width: 67%;
+  height: 1px;
+  background-color: rgba(29, 255, 236, 0.541);
+  display: inline-block;
+  position: relative;
+  bottom: 9px;
+  margin-left: 2%;
+}
+.background_image {
+  width: 75%;
+  margin-left: 11%;
+}
+.background_image > img {
+  width: 100%;
+  z-index: -1;
+  opacity: 0.9;
+}
+.contact-intro {
+  position: absolute;
+  bottom: 40%;
+  /* border: red solid 2px; */
+  width: 100%;
+}
+.contact-intro > h3 {
+  color: white;
+  text-align: center;
+  margin: 1rem 0;
+  font-weight: 400;
+}
+.contact-social-icon {
+  position: absolute;
+  bottom: 20%;
+  left: 38%;
+}
+.contact-social-icon .contact-icons {
+  font-size: 2.5rem;
+  margin: 0 1rem;
+  color: white;
+}
