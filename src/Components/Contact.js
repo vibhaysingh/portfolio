@@ -9,27 +9,20 @@ import {
   FaTwitter,
   FaTelegram,
   FaLightbulb,
+  FaHeart,
 } from "react-icons/fa";
+
 function Contact() {
   return (
-    <div className="contact-container">
+    <div className="contact-container " id="contact">
       <h1 className="contact-heading">Contact</h1>
       <div className="background_image">
         <img src={worldmap} alt="" />
       </div>
       <div className="contact-intro">
-        <h3>
-          <FaLightbulb />
-          Have a Project In Your Mind,Lets Discuss!
-        </h3>
-        <h3>
-          <FaLightbulb />
-          Have Questions about My Projects,Drop Your Query!
-        </h3>
-        <h3>
-          <FaLightbulb />
-          Drop Your Message below,I will reply ASAP !!!
-        </h3>
+        <h3>🚀 Have a project in your mind, Lets Discuss ✌</h3>
+        <h3>🚀 Have questions about my projects,drop your query below 📩</h3>
+        <h3>🚀 Drop your message below, I will reply ASAP!!! 🔔</h3>
       </div>
       <div className="contact-social-icon">
         <a href="/">
@@ -58,6 +51,15 @@ function Contact() {
           </span>
         </a>
       </div>
+      <footer>
+        <h3>
+          Made With
+          <span className="heart">
+            <FaHeart />
+          </span>
+          by Vibhay Singh
+        </h3>
+      </footer>
     </div>
   );
 }

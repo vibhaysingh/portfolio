@@ -7,7 +7,7 @@ import { useEffect } from "react";
 
 function Homepage() {
   return (
-    <div className="home-container">
+    <div className="home-container " id="homepage">
       <div className="homepage-intro">
         <h1>
           <Rotate cascade>
@@ -20,9 +20,7 @@ function Homepage() {
             <span className="text-color"> I'm Vibhay Singh</span>
           </Rotate>
         </p>
-        <p>
-          <span className="text-color" id="typing"></span>
-        </p>
+        <p></p>
         <div className="resume-btn">
           <button>
             RESUME <BiArrowToBottom className="resume-icon" />

@@ -4,7 +4,7 @@ import QuizImage from "../images/img-home.jpg";
 import { FiGithub, FiExternalLink } from "react-icons/fi";
 function Project() {
   return (
-    <div className="project-container">
+    <div className="project-container" id="projects">
       <h1 className="project-heading">Projects</h1>
       <div className="project-card-container">
         <div className="project-card">
@@ -42,12 +42,12 @@ function Project() {
               <h3>Recpie App</h3>
             </div>
             <div className="project-description">
-              <p>A MCQ Quiz App </p>
+              <p>Search Your Favorite food Recipe </p>
             </div>
             <div className="tech-used">
               <div className="tech-name">HTML</div>
               <div className="tech-name">CSS</div>
-              <div className="tech-name">JAVASCRIPT</div>
+              <div className="tech-name">REACTJS</div>
             </div>
             <div className="projects-links">
               <a href="/">

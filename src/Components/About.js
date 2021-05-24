@@ -6,8 +6,7 @@ import { BiBookReader } from "react-icons/bi";
 import { HiOutlineLightBulb } from "react-icons/hi";
 function About() {
   return (
-    <div className="about-container">
-      {/* <img className="greenDotimg" src={greeenDot} alt="" /> */}
+    <div className="about-container section">
       <Flip left>
         <h1 className="about-heading">About Me</h1>
       </Flip>

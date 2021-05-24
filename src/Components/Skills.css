@@ -1,11 +1,9 @@
-.skills_container {
+.skills {
   background-color: black;
-  /* padding-bottom: 50rem; */
   min-height: 100vh;
 }
 .skills_heading h1 {
   color: rgb(29, 255, 236);
-  /* text-align: center; */
   margin-bottom: 2%;
   font-size: 3rem;
   font-weight: 500;
@@ -13,7 +11,7 @@
 }
 .skills_heading h1::after {
   content: "";
-  width: 67%;
+  width: 72%;
   height: 1px;
   background-color: rgba(29, 255, 236, 0.541);
   display: inline-block;
@@ -21,48 +19,66 @@
   bottom: 9px;
   margin-left: 2%;
 }
-.skills_image_container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-content: flex-start;
+
+.skill_card {
+  margin-bottom: 1.5rem;
+  padding: 1.4rem 1.6rem;
+  border-radius: 5px;
+  background-color: rgba(21, 71, 80, 0.274);
+  z-index: 1;
+  border-left: 6px solid rgba(5, 84, 100, 0.808);
   width: 70%;
   margin-left: 15%;
+  padding-left: 3rem;
 }
-.skills_image_container .skill_image {
-  height: 9rem;
-  /* box-shadow: 0px 0px 10px rgb(93, 224, 192); */
-  box-shadow: 0px 0px 10px rgba(93, 224, 191, 0.425);
-  border-radius: 30px;
-  margin: 1rem;
-  width: 10rem;
-  text-align: center;
-  overflow: hidden;
+.card_heading {
+  display: block;
+  color: rgba(16, 235, 133, 0.959);
+  font-size: 1.25rem;
+  margin-top: -0.5rem;
+  text-transform: uppercase;
 }
-.skills_image_container .skill_image img {
-  height: 6rem;
-  padding-top: 1rem;
+.logos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px 50px;
+  margin-top: 1.4rem;
 }
-.skills_image_container .skill_image p {
-  color: yellow;
-  font-weight: 500;
+.logo {
+  display: flex;
+  box-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.logo1 {
+  font-size: 1.6rem;
+  color: rgba(0, 255, 255, 0.644);
+  margin-right: 10px;
+}
+.logo1_img img {
+  width: 2rem;
+  height: 2rem;
+}
+.text {
+  font-size: 1.14rem;
+  color: whitesmoke;
+  margin-bottom: 0.5rem;
 }
 @media screen and (max-width: 870px) {
-  .skills_image_container {
-    width: 100%;
-    margin-left: 0%;
+  .skills_heading h1 {
+    text-align: center;
   }
-  .skills_image_container .skill_image {
-    height: 5rem;
-    width: 5rem;
+  .skills_heading h1::after {
+    display: none;
   }
-  .skills_image_container .skill_image img {
-    height: 100%;
-    padding: 1.2rem;
-    width: 100%;
-    margin-top: -10%;
+  .skill_card {
+    width: 90%;
+    margin-left: 5%;
   }
-  .skills_image_container .skill_image p {
-    margin-top: -33%;
+  .skills_heading h1 {
+    margin-left: 0;
+  }
+  .logos {
+    grid-template-columns: repeat(2, 1fr);
   }
 }

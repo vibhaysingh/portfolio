@@ -1,95 +1,166 @@
 import React from "react";
 import "./Skills.css";
 import { Flip } from "react-reveal";
-import C from "../skills-image/C_Logo.png";
-import CPP from "../skills-image/C++_Logo.png";
-import HTML from "../skills-image/HTML_Logo.png";
-import CSS from "../skills-image/CSS_Logo.png";
-import JS from "../skills-image/Javascript_Logo.png";
-import REACT from "../skills-image/React_Logo.png";
-import REDUX from "../skills-image/Redux_Logo.png";
-import NODE from "../skills-image/NodeJS_Logo.png";
-import MONGODB from "../skills-image/MongoDB_Logo.png";
-import GIT from "../skills-image/GIT_Logo.png";
-import GITHUB from "../skills-image/Github_Logo.png";
-import FIREBASE from "../skills-image/Firebase_Logo.png";
-import MUI from "../skills-image/MaterialUI_Logo.png";
-import DSA from "../skills-image/Tree_Logo.png";
-import EXPRESS from "../skills-image/ExpressJS_Logo.png";
-import Rotate from "react-reveal/Rotate";
-
+import {
+  SiJavascript,
+  SiCplusplus,
+  SiReact,
+  SiCss3,
+  SiHtml5,
+  SiBootstrap,
+  SiMaterialUi,
+  SiNodeDotJs,
+  SiMongodb,
+  SiHeroku,
+  SiGit,
+  SiGithub,
+  SiFirebase,
+  SiRedux,
+  SiC,
+  SiNextDotJs,
+  SiVisualstudiocode,
+  SiPostman,
+} from "react-icons/si";
+import { BiCoinStack } from "react-icons/bi";
 function Skills() {
   return (
-    <div className="skills_container">
+    <div className="skills" id="skills">
       <div className="skills_heading">
-        <Flip left>
-          <h1>Skills</h1>
-        </Flip>
+        <h1>Skills</h1>
       </div>
-      <div className="skills_image_container">
-        <Rotate top left>
-          <div className="skill_image">
-            <img src={C} alt="C_LOGO" />
-            <p>C</p>
+      <div className="skill_card">
+        <h2 className="card_heading">Languages</h2>
+        <div className="logos">
+          <div className="logo">
+            <p className="logo1">
+              <SiJavascript />
+            </p>
+            <p className="text">JAVASCRIPT</p>
           </div>
-
-          <div className="skill_image">
-            <img src={CPP} alt="" />
-            <p>C++</p>
+          <div className="logo">
+            <p className="logo1">
+              <SiCplusplus />
+            </p>
+            <p className="text">C++</p>
           </div>
-          <div className="skill_image">
-            <img src={DSA} alt="" />
-            <p>DSA</p>
+          <div className="logo">
+            <p className="logo1">
+              <SiC />
+            </p>
+            <p className="text">C</p>
           </div>
-          <div className="skill_image">
-            <img src={HTML} alt="" />
-            <p>HTML</p>
+        </div>
+      </div>
+      <div className="skill_card">
+        <h2 className="card_heading">FRONTEND</h2>
+        <div className="logos">
+          <div className="logo">
+            <p className="logo1">
+              <SiHtml5 />
+            </p>
+            <p className="text">HTML5</p>
           </div>
-          <div className="skill_image">
-            <img src={CSS} alt="" />
-            <p>CSS</p>
+          <div className="logo">
+            <p className="logo1">
+              <SiCss3 />
+            </p>
+            <p className="text">CSS3</p>
           </div>
-          <div className="skill_image">
-            <img src={JS} alt="" />
-            <p>JS</p>
+          <div className="logo">
+            <p className="logo1">
+              <SiReact />
+            </p>
+            <p className="text">REACT</p>
           </div>
-          <div className="skill_image">
-            <img src={REACT} alt="" />
-            <p>REACT</p>
+          <div className="logo">
+            <p className="logo1">
+              <SiRedux />
+            </p>
+            <p className="text">REDUX</p>
           </div>
-          <div className="skill_image">
-            <img src={REDUX} alt="" />
-            <p>REDUX</p>
+          <div className="logo">
+            <p className="logo1">
+              <SiMaterialUi />
+            </p>
+            <p className="text">MATERIAL UI</p>
           </div>
-          <div className="skill_image">
-            <img src={MUI} alt="" />
-            <p>MUI</p>
+          <div className="logo">
+            <p className="logo1">
+              <SiBootstrap />
+            </p>
+            <p className="text">BOOTSTRAP</p>
           </div>
-          <div className="skill_image">
-            <img src={NODE} alt="" />
-            <p>NODE</p>
+        </div>
+      </div>
+      <div className="skill_card">
+        <h2 className="card_heading">BACKEND</h2>
+        <div className="logos">
+          <div className="logo">
+            <p className="logo1">
+              <SiNodeDotJs />
+            </p>
+            <p className="text">NODEJS</p>
           </div>
-          <div className="skill_image">
-            <img src={MONGODB} alt="" />
-            <p>MONGODB</p>
+          <div className="logo">
+            <p className="logo1">
+              <SiMongodb />
+            </p>
+            <p className="text">MONGODB</p>
           </div>
-          <div className="skill_image">
-            <img style={{ width: "100%" }} src={EXPRESS} alt="" />
-            <p>EXPRESS</p>
+          <div className="logo">
+            <p className="logo1">
+              <SiNextDotJs />
+            </p>
+            <p className="text">NEXTJS</p>
           </div>
-          <div className="skill_image">
-            <img src={FIREBASE} alt="" />
-            <p>FIREBASE</p>
+          <div className="logo">
+            <p className="logo1">
+              <SiFirebase />
+            </p>
+            <p className="text">Firebase</p>
           </div>
-          <div className="skill_image">
-            <img src={GIT} alt="" />
-            <p>GIT</p>
+        </div>
+      </div>
+      <div className="skill_card">
+        <h2 className="card_heading">OTHERS</h2>
+        <div className="logos">
+          <div className="logo">
+            <p className="logo1">
+              <SiGit />
+            </p>
+            <p className="text">GIT</p>
           </div>
-          <div className="skill_image">
-            <img src={GITHUB} alt="" />
-            <p>GITHUB</p>
+          <div className="logo">
+            <p className="logo1">
+              <SiGithub />
+            </p>
+            <p className="text">GITHUB</p>
           </div>
-        </Rotate>
+          <div className="logo">
+            <p className="logo1">
+              <SiPostman />
+            </p>
+            <p className="text">POSTMAN</p>
+          </div>
+          <div className="logo">
+            <p className="logo1">
+              <SiHeroku />
+            </p>
+            <p className="text">HEROKU</p>
+          </div>
+          <div className="logo">
+            <p className="logo1">
+              <SiVisualstudiocode />
+            </p>
+            <p className="text">VSCODE</p>
+          </div>
+          <div className="logo">
+            <p className="logo1">
+              <BiCoinStack />
+            </p>
+            <p className="text">DSA</p>
+          </div>
+        </div>
       </div>
     </div>
   );

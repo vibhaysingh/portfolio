@@ -1,9 +1,7 @@
 .project-container {
-  /* background-color: yellow; */
 }
 .project-heading {
   color: rgb(29, 255, 236);
-  /* text-align: center; */
   margin-bottom: 2%;
   font-size: 3rem;
   font-weight: 500;
@@ -21,9 +19,6 @@
 }
 
 .project-card-container {
-  /* display: flex;
-  justify-content: space-evenly;
-  margin-right: 1rem; */
   margin-bottom: 2rem;
 }
 .project-card {
@@ -33,37 +28,37 @@
   margin-bottom: 70px;
   display: grid;
   grid-template-columns: 1fr 0.6fr;
-  /* grid-gap: 10px; */
-  /* background-color: tomato; */
   border-radius: 5px;
   overflow: hidden;
-  /* box-shadow: 0px 0px 10px 0px rgba(137, 43, 226, 0.384); */
-  /* border: 0.1px solid blueviolet; */
 }
 .project-image img {
   width: 100%;
   border-radius: 5px;
 }
 .project-image {
-  background-color: rgb(61, 44, 81);
+  background-color: rgba(21, 71, 80, 0.158);
 }
 .about-project {
   background-color: rgb(29, 19, 42);
+  background-color: rgba(21, 71, 80, 0.514);
 }
 .project-title {
-  /* width: 30%; */
   font-size: 1.8rem;
   margin: 1rem 0;
   color: rgb(241, 240, 243);
-  /* border: yellow solid 1px; */
   text-align: right;
   padding-right: 2.3rem;
 }
+.project-title h3 {
+  font-weight: 500;
+}
 .project-description p {
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   text-align: right;
   padding-right: 2.3rem;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
 }
 .tech-used {
   display: flex;
@@ -71,14 +66,15 @@
   flex-wrap: wrap;
   justify-content: flex-end;
   margin-top: 2rem;
-  padding-left: 100px;
+  /* padding-left: 100px; */
+  padding-right: 1.5rem;
   /* border: yellow 1px solid; */
 }
 .tech-used .tech-name {
   background-color: rgba(198, 153, 252, 0.063);
   color: white;
   font-size: 1rem;
-  border: 2px solid rgb(198, 153, 252);
+  border: 2px solid rgb(79, 141, 211);
   padding: 0.4rem;
   border-radius: 5px;
   margin: 0 0.5rem 0 0.5rem;
@@ -96,4 +92,23 @@
 }
 .projects-links a:hover {
   color: blueviolet;
+}
+@media screen and (max-width: 870px) {
+  .project-card {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.8fr;
+    height: 550px;
+    width: 90%;
+    margin-left: 5%;
+  }
+  .project-heading::after {
+    display: none;
+  }
+  h1.project-heading {
+    margin-left: 0;
+    text-align: center;
+  }
+  .projects-links {
+    margin-bottom: 1rem;
+  }
 }

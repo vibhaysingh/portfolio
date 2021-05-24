@@ -39,6 +39,10 @@
 .homepage-intro .resume-btn :hover {
   border: rgba(255, 255, 0, 0.459) solid 1px;
 }
+.resume-icon:hover {
+  outline: none;
+  /* background-color: pink; */
+}
 .homepage-intro .resume-btn button .resume-icon {
   position: relative;
   top: 3px;
