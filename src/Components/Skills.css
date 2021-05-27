@@ -65,6 +65,9 @@
   margin-bottom: 0.5rem;
 }
 @media screen and (max-width: 870px) {
+  .skills {
+    margin-top: 11rem;
+  }
   .skills_heading h1 {
     text-align: center;
   }

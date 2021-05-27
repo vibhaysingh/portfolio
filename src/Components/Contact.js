@@ -20,9 +20,9 @@ function Contact() {
         <img src={worldmap} alt="" />
       </div>
       <div className="contact-intro">
-        <h3>🚀 Have a project in your mind, Lets Discuss ✌</h3>
-        <h3>🚀 Have questions about my projects,drop your query below 📩</h3>
-        <h3>🚀 Drop your message below, I will reply ASAP!!! 🔔</h3>
+        <h3>Have a project in your mind, Lets Discuss.</h3>
+        <h3>Have questions about my projects, Drop your query.</h3>
+        <h3>Drop your message below, I will reply ASAP!!!</h3>
       </div>
       <div className="contact-social-icon">
         <a href="/">

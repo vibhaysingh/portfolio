@@ -94,6 +94,9 @@
   color: blueviolet;
 }
 @media screen and (max-width: 870px) {
+  .project-heading {
+    margin-bottom: 2rem;
+  }
   .project-card {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 0.8fr;

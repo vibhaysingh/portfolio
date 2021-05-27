@@ -1,5 +1,5 @@
 .home-container {
-  height: calc(100vh - 70px);
+  min-height: calc(100vh - 70px);
   width: 100%;
   display: flex;
   background-color: black;
@@ -35,14 +35,12 @@
   color: yellow;
   font-weight: 500;
   letter-spacing: 1px;
+  margin-left: 0.2rem;
 }
 .homepage-intro .resume-btn :hover {
   border: rgba(255, 255, 0, 0.459) solid 1px;
 }
-.resume-icon:hover {
-  outline: none;
-  /* background-color: pink; */
-}
+
 .homepage-intro .resume-btn button .resume-icon {
   position: relative;
   top: 3px;
@@ -50,14 +48,11 @@
   font-size: 1.2rem;
   cursor: pointer;
 }
-.homepage-video {
-  width: auto;
-  background-size: cover;
-}
-.homepage-video video {
-  z-index: -100;
-  width: 90%;
-  margin-top: 6%;
+.homepage-video img {
+  display: inline-block;
+  width: 500px;
+  height: 500px;
+  margin-top: 7%;
 }
 .text-color {
   color: rgb(29, 255, 236);
@@ -72,18 +67,34 @@
     height: 100vh;
   }
   .homepage-intro {
-    width: 100vw;
-    height: 70%;
+    width: 100%;
+    margin-top: 45%;
   }
   .homepage-video {
     width: 100%;
-    background-size: cover;
-    text-align: center;
   }
-  .homepage-video video {
-    width: 80%;
-    height: 60%;
+  .homepage-video img {
+    width: 100%;
+    height: 100%;
   }
+}
+.type-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+  min-height: 60px;
+}
+
+#line {
+  position: relative;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: Poppins;
+  color: #00ffea;
+  text-align: center;
+  /* border: 1px solid red; */
 }
 @media screen and (max-width: 412px) {
   .homepage-video video {

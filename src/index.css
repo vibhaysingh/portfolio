@@ -10,9 +10,9 @@
 }
 body {
   background-color: black;
-  /* width: 100vw; */
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
   min-width: 360px;
+  width: 100%;
 }
 :root {
   scroll-padding-top: 90px;

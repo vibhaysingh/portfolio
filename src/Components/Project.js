@@ -1,6 +1,8 @@
 import React from "react";
 import "./Project.css";
-import QuizImage from "../images/img-home.jpg";
+import TaskManager from "../images/Task Manager.png";
+import QuizzeApp from "../images/Quizzer App.png";
+import RecipeApp from "../images/Recipe App.png";
 import { FiGithub, FiExternalLink } from "react-icons/fi";
 function Project() {
   return (
@@ -9,7 +11,7 @@ function Project() {
       <div className="project-card-container">
         <div className="project-card">
           <div className="project-image">
-            {/* <img src={QuizImage} alt="" /> */}
+            <img src={QuizzeApp} alt="" />
           </div>
           <div className="about-project">
             <div className="project-title">
@@ -35,7 +37,7 @@ function Project() {
         </div>
         <div className="project-card">
           <div className="project-image">
-            {/* <img src={QuizImage} alt="" /> */}
+            <img src={RecipeApp} alt="" />
           </div>
           <div className="about-project">
             <div className="project-title">
@@ -61,7 +63,8 @@ function Project() {
         </div>
         <div className="project-card">
           <div className="project-image">
-            {/* <img src={QuizImage} alt="" /> */}
+            <img src={TaskManager} alt="" />
+            {/* <img src={TaskManagerM} alt="" /> */}
           </div>
           <div className="about-project">
             <div className="project-title">

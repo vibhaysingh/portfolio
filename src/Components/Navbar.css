@@ -1,6 +1,7 @@
 .navbar-items {
   background-color: black;
   height: 70px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,10 +35,10 @@ a.nav-links {
 a.nav-links::before {
   content: "";
   position: absolute;
-  width: 80%;
+  width: 85%;
   height: 2px;
   bottom: 0;
-  left: 11%;
+  left: 9%;
   background-color: #fff;
   visibility: hidden;
   transform: scaleX(0);
@@ -47,12 +48,6 @@ a.nav-links:hover::before {
   visibility: visible;
   transform: scaleX(1);
 }
-/* .nav-links:hover {
-  background-color: rgba(7, 73, 42, 0.644);
-  border-radius: 4px;
-  transition: all 0.2s ease-out;
-  font-weight: 400;
-} */
 .menu-icon {
   display: none;
 }
@@ -89,7 +84,7 @@ a.nav-links:hover::before {
 
 @media screen and (max-width: 870px) {
   .navbar-items {
-    width: 100%;
+    width: 104%;
   }
   .nav-menu {
     display: flex;
