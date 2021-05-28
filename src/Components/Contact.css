@@ -13,13 +13,13 @@
 }
 .contact-heading::after {
   content: "";
-  width: 67%;
+  width: 66%;
   height: 1px;
   background-color: rgba(29, 255, 236, 0.541);
   display: inline-block;
   position: relative;
   bottom: 9px;
-  margin-left: 2%;
+  margin-left: 1%;
 }
 .background_image {
   width: 75%;
@@ -112,12 +112,12 @@ footer span :first-child {
   .contact-intro {
     width: 100%;
     /* border: 2px solid red; */
-    bottom: 28%;
+    bottom: 34%;
   }
   .contact-social-icon {
     display: flex;
     width: 100%;
-    left: 0;
+    left: 2%;
     justify-content: space-evenly;
     bottom: 15%;
   }

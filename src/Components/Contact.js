@@ -1,6 +1,7 @@
 import React from "react";
 import "./Contact.css";
 import worldmap from "../images/worldmap.png";
+import { Fade, Bounce } from "react-reveal";
 import {
   FaLinkedin,
   FaGithub,
@@ -8,7 +9,6 @@ import {
   FaFacebook,
   FaTwitter,
   FaTelegram,
-  FaLightbulb,
   FaHeart,
 } from "react-icons/fa";
 
@@ -20,37 +20,41 @@ function Contact() {
         <img src={worldmap} alt="" />
       </div>
       <div className="contact-intro">
-        <h3>Have a project in your mind, Lets Discuss.</h3>
-        <h3>Have questions about my projects, Drop your query.</h3>
-        <h3>Drop your message below, I will reply ASAP!!!</h3>
+        <Fade bottom cascade>
+          <h3>Have a project in your mind, Lets Discuss.</h3>
+          <h3>Have questions about my projects, Drop your query.</h3>
+          <h3>Drop your message below, I will reply ASAP!!!</h3>
+        </Fade>
       </div>
-      <div className="contact-social-icon">
-        <a href="/">
-          <span className="contact-icons">
-            <FaLinkedin />
-          </span>
-        </a>
-        <a href="/">
-          <span className="contact-icons">
-            <FaTelegram />
-          </span>
-        </a>
-        <a href="/">
-          <span className="contact-icons">
-            <FaInstagram />
-          </span>
-        </a>
-        <a href="/">
-          <span className="contact-icons">
-            <FaFacebook />
-          </span>
-        </a>
-        <a href="/">
-          <span className="contact-icons">
-            <FaTwitter />
-          </span>
-        </a>
-      </div>
+      <Bounce bottom>
+        <div className="contact-social-icon">
+          <a href="/">
+            <span className="contact-icons">
+              <FaLinkedin />
+            </span>
+          </a>
+          <a href="/">
+            <span className="contact-icons">
+              <FaTelegram />
+            </span>
+          </a>
+          <a href="/">
+            <span className="contact-icons">
+              <FaInstagram />
+            </span>
+          </a>
+          <a href="/">
+            <span className="contact-icons">
+              <FaFacebook />
+            </span>
+          </a>
+          <a href="/">
+            <span className="contact-icons">
+              <FaTwitter />
+            </span>
+          </a>
+        </div>
+      </Bounce>
       <footer>
         <h3>
           Made With

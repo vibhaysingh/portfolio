@@ -4,7 +4,7 @@
 }
 .skills_heading h1 {
   color: rgb(29, 255, 236);
-  margin-bottom: 2%;
+  margin-bottom: 3%;
   font-size: 3rem;
   font-weight: 500;
   margin-left: 15%;
@@ -17,7 +17,7 @@
   display: inline-block;
   position: relative;
   bottom: 9px;
-  margin-left: 2%;
+  margin-left: 1%;
 }
 
 .skill_card {
@@ -76,10 +76,11 @@
   }
   .skill_card {
     width: 90%;
-    margin-left: 5%;
+    margin-left: 7%;
   }
   .skills_heading h1 {
     margin-left: 0;
+    margin-bottom: 14%;
   }
   .logos {
     grid-template-columns: repeat(2, 1fr);

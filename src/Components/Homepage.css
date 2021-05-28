@@ -10,10 +10,9 @@
   text-align: center;
   padding-top: 10rem;
 }
-.homepage-intro h1 {
-  color: white;
+.homepage-intro h1 span {
   font-size: 2.5rem;
-  font-weight: 600;
+  font-weight: 520;
 }
 .homepage-intro p {
   font-size: 2.5rem;
