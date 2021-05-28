@@ -28,10 +28,16 @@ function Project() {
                 <div className="tech-name">JAVASCRIPT</div>
               </div>
               <div className="projects-links">
-                <a href="/">
+                <a
+                  href="https://github.com/vibhaysingh/quizzerApp"
+                  target="_blank"
+                >
                   <FiGithub />
                 </a>
-                <a href="/">
+                <a
+                  href="https://vibhaysingh.github.io/quizzerApp/"
+                  target="_blank"
+                >
                   <FiExternalLink />
                 </a>
               </div>
@@ -56,10 +62,16 @@ function Project() {
                 <div className="tech-name">REACTJS</div>
               </div>
               <div className="projects-links">
-                <a href="/">
+                <a
+                  href="https://github.com/vibhaysingh/recipeApp"
+                  target="_blank"
+                >
                   <FiGithub />
                 </a>
-                <a href="/">
+                <a
+                  href="https://vibhaysingh.github.io/recipeApp/"
+                  target="_blank"
+                >
                   <FiExternalLink />
                 </a>
               </div>
@@ -84,10 +96,16 @@ function Project() {
                 <div className="tech-name">JAVASCRIPT</div>
               </div>
               <div className="projects-links">
-                <a href="/">
+                <a
+                  href="https://vibhaysingh.github.io/task-manager-app/"
+                  target="_blank"
+                >
                   <FiGithub />
                 </a>
-                <a href="/">
+                <a
+                  href="https://vibhaysingh.github.io/task-manager-app/"
+                  target="_blank"
+                >
                   <FiExternalLink />
                 </a>
               </div>

@@ -4,7 +4,6 @@ import worldmap from "../images/worldmap.png";
 import { Fade, Bounce } from "react-reveal";
 import {
   FaLinkedin,
-  FaGithub,
   FaInstagram,
   FaFacebook,
   FaTwitter,
@@ -28,27 +27,27 @@ function Contact() {
       </div>
       <Bounce bottom>
         <div className="contact-social-icon">
-          <a href="/">
+          <a href="https://www.linkedin.com/in/vibhay-singh-56a9141a7">
             <span className="contact-icons">
               <FaLinkedin />
             </span>
           </a>
-          <a href="/">
+          <a href="https://t.me/vibhay_4">
             <span className="contact-icons">
               <FaTelegram />
             </span>
           </a>
-          <a href="/">
+          <a href="https://www.instagram.com/invites/contact/?i=cy78k4lrl70l&utm_content=8k8y10j">
             <span className="contact-icons">
               <FaInstagram />
             </span>
           </a>
-          <a href="/">
+          <a href="https://www.facebook.com/vibhaysinghjnv">
             <span className="contact-icons">
               <FaFacebook />
             </span>
           </a>
-          <a href="/">
+          <a href=" https://twitter.com/Vibhay_4?s=08">
             <span className="contact-icons">
               <FaTwitter />
             </span>

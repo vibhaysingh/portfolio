@@ -66,12 +66,15 @@ function Homepage() {
           <p id="line"></p>
         </div>
         <div className="resume-btn">
-          <button>
-            RESUME <BiArrowToBottom className="resume-icon" />
-          </button>
-          <button>
-            EMAIL <BiMailSend className="resume-icon" />
-          </button>
+          <a
+            href="https://drive.google.com/file/d/1OkokjhLPmBB_P3h4rpTjOrsRqYLKwD3z/view?usp=drivesdk"
+            target="_blank"
+          >
+            <button>RESUME</button>
+          </a>
+          <a href="mailto:vibhaysinghjnv@gmail.com" target="_blank">
+            <button>EMAIL ME</button>
+          </a>
         </div>
       </div>
 

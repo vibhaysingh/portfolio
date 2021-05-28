@@ -84,34 +84,37 @@ function Navbar() {
             </a>
           </li>
         </ul>
-        <div className="profile">
-          <img src="" alt="" />
-        </div>
       </div>
 
       <div className={click ? "social-icons  active" : "social-icons"}>
         <div>
-          <a href="#">
+          <a href="https://www.facebook.com/vibhaysinghjnv" target="_blank">
             <FaFacebook className="facebook" />
           </a>
         </div>
         <div>
-          <a href="#">
+          <a
+            href="https://www.instagram.com/invites/contact/?i=cy78k4lrl70l&utm_content=8k8y10j"
+            target="_blank"
+          >
             <FaInstagram className="instagram" />
           </a>
         </div>
         <div>
-          <a href="#">
+          <a href="https://github.com/vibhaysingh" target="_blank">
             <FaGithub className="github" />
           </a>
         </div>
         <div>
-          <a href="#">
+          <a
+            href="https://www.linkedin.com/in/vibhay-singh-56a9141a7"
+            target="_blank"
+          >
             <FaLinkedin className="linkedin" />
           </a>
         </div>
         <div>
-          <a href="#">
+          <a href="https://twitter.com/Vibhay_4?s=08" target="_blank">
             <FaTwitter className="twitter" />
           </a>
         </div>
