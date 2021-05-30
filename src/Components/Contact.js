@@ -1,16 +1,15 @@
 import React from "react";
 import "./Contact.css";
 import worldmap from "../images/worldmap.png";
-import { Fade, Bounce } from "react-reveal";
+import { Zoom, Bounce } from "react-reveal";
 import {
   FaLinkedin,
   FaInstagram,
   FaFacebook,
   FaTwitter,
-  FaTelegram,
   FaHeart,
 } from "react-icons/fa";
-
+import { FiMail } from "react-icons/fi";
 function Contact() {
   return (
     <div className="contact-container " id="contact">
@@ -19,11 +18,11 @@ function Contact() {
         <img src={worldmap} alt="" />
       </div>
       <div className="contact-intro">
-        <Fade bottom cascade>
+        <Zoom cascade>
           <h3>Have a project in your mind, Lets Discuss.</h3>
           <h3>Have questions about my projects, Drop your query.</h3>
           <h3>Drop your message below, I will reply ASAP!!!</h3>
-        </Fade>
+        </Zoom>
       </div>
       <Bounce bottom>
         <div className="contact-social-icon">
@@ -35,9 +34,9 @@ function Contact() {
               <FaLinkedin />
             </span>
           </a>
-          <a href="https://t.me/vibhay_4" target="_blank">
+          <a href="mailto:vibhaysinghjnv@gmail.com" target="_blank">
             <span className="contact-icons">
-              <FaTelegram />
+              <FiMail />
             </span>
           </a>
           <a
