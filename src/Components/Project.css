@@ -124,3 +124,9 @@
     margin-top: 1rem;
   }
 }
+@media screen and (min-width: 430px) and (max-width: 870px) {
+  .project-card {
+    height: 100%;
+    margin-left: 5%;
+  }
+}

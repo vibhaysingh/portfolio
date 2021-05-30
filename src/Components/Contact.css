@@ -1,7 +1,7 @@
 .contact-container {
   position: relative;
-  height: 68.5vh;
-  padding: 0.9rem;
+  height: 66vh;
+  width: 100%;
 }
 
 .contact-heading {
@@ -44,7 +44,7 @@
   /* border: 2px solid red; */
 }
 .contact-intro h3 {
-  color: rgba(16, 235, 133, 0.959);
+  color: white;
   text-align: center;
   margin: 1rem 0;
   font-weight: 400;
@@ -97,6 +97,8 @@ footer span :first-child {
 @media screen and (max-width: 870px) {
   .contact-container {
     height: 89vh;
+    width: 100%;
+    margin-left: 0.5rem;
   }
   .contact-heading::after {
     display: none;
@@ -111,7 +113,6 @@ footer span :first-child {
   }
   .contact-intro {
     width: 100%;
-    /* border: 2px solid red; */
     bottom: 34%;
   }
   .contact-social-icon {
@@ -122,11 +123,25 @@ footer span :first-child {
     bottom: 15%;
   }
   .contact-intro h3 {
-    text-align: left;
-    padding-left: 1.5rem;
+    text-align: center;
+    padding-left: 0.5rem;
+    border: 0.5px solid cyan;
+    border-radius: 5px;
   }
   footer {
     bottom: 0;
     width: 100%;
+  }
+}
+@media screen and (min-width: 430px) and (max-width: 870px) {
+  .contact-container {
+    margin-left: 0rem;
+  }
+  .contact-intro {
+    top: 15%;
+    padding: 0 0.5rem;
+  }
+  .contact-social-icon {
+    left: 0%;
   }
 }

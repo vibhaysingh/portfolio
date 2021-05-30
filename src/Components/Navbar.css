@@ -163,3 +163,8 @@ a.nav-links:hover::before {
     margin-left: -75%;
   }
 }
+@media screen and (min-width: 430px) and (max-width: 870px) {
+  .menu-icon {
+    right: 1rem;
+  }
+}

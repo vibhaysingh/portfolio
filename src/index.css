@@ -18,3 +18,7 @@ body {
   scroll-padding-top: 90px;
   scroll-behavior: smooth;
 }
+
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+}

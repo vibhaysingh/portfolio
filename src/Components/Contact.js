@@ -27,27 +27,33 @@ function Contact() {
       </div>
       <Bounce bottom>
         <div className="contact-social-icon">
-          <a href="https://www.linkedin.com/in/vibhay-singh-56a9141a7">
+          <a
+            href="https://www.linkedin.com/in/vibhay-singh-56a9141a7"
+            target="_blank"
+          >
             <span className="contact-icons">
               <FaLinkedin />
             </span>
           </a>
-          <a href="https://t.me/vibhay_4">
+          <a href="https://t.me/vibhay_4" target="_blank">
             <span className="contact-icons">
               <FaTelegram />
             </span>
           </a>
-          <a href="https://www.instagram.com/invites/contact/?i=cy78k4lrl70l&utm_content=8k8y10j">
+          <a
+            href="https://www.instagram.com/invites/contact/?i=cy78k4lrl70l&utm_content=8k8y10j"
+            target="_blank"
+          >
             <span className="contact-icons">
               <FaInstagram />
             </span>
           </a>
-          <a href="https://www.facebook.com/vibhaysinghjnv">
+          <a href="https://www.facebook.com/vibhaysinghjnv" target="_blank">
             <span className="contact-icons">
               <FaFacebook />
             </span>
           </a>
-          <a href=" https://twitter.com/Vibhay_4?s=08">
+          <a href=" https://twitter.com/Vibhay_4?s=08" target="_blank">
             <span className="contact-icons">
               <FaTwitter />
             </span>

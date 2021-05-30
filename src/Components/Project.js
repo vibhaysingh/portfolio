@@ -47,7 +47,16 @@ function Project() {
         <Slide right>
           <div className="project-card">
             <div className="project-image">
-              <img src={RecipeApp} style={{}} alt="Recipe Image" />
+              <img
+                src={RecipeApp}
+                style={{
+                  width: "99%",
+                  marginLeft: "0.5%",
+                  zIndex: 1000,
+                  order: 100,
+                }}
+                alt="Recipe Image"
+              />
             </div>
             <div className="about-project">
               <div className="project-title">
@@ -97,7 +106,7 @@ function Project() {
               </div>
               <div className="projects-links">
                 <a
-                  href="https://vibhaysingh.github.io/task-manager-app/"
+                  href="https://github.com/vibhaysingh/task-manager-app"
                   target="_blank"
                 >
                   <FiGithub />

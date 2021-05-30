@@ -1,11 +1,8 @@
 import React from "react";
 import "./Homepage.css";
-import video from "../videos/Developer activity (2).mp4";
-import myimg from "../images/home-img.png";
 import myimgsvg from "../images/homepage_illus.svg";
-import { BiArrowToBottom, BiMailSend } from "react-icons/bi";
-import { Rotate, Zoom } from "react-reveal";
-import { useEffect, useState } from "react";
+import { Rotate } from "react-reveal";
+import { useEffect } from "react";
 function Homepage() {
   function fakeRequest() {
     return new Promise((resolve) => setTimeout(() => resolve(), 100));

@@ -36,14 +36,6 @@
   letter-spacing: 1px;
   margin-left: 0.2rem;
 }
-
-/* .homepage-intro .resume-btn button .resume-icon {
-  position: relative;
-  top: 3px;
-  left: 3px;
-  font-size: 1.2rem;
-  cursor: pointer;
-} */
 .homepage-video img {
   display: inline-block;
   width: 500px;
@@ -90,7 +82,6 @@
   font-family: Poppins;
   color: #00ffea;
   text-align: center;
-  /* border: 1px solid red; */
 }
 @media screen and (max-width: 412px) {
   .homepage-video video {
@@ -99,5 +90,17 @@
   }
   .home-container {
     margin-top: -7.67rem;
+  }
+}
+@media screen and (min-width: 430px) and (max-width: 870px) {
+  .homepage-video {
+    width: 90%;
+    height: 90%;
+  }
+  .homepage-intro {
+    margin-top: 0%;
+  }
+  .home-container {
+    height: 100%;
   }
 }
