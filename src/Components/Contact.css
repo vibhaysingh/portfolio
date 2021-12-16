@@ -127,6 +127,7 @@ footer span :first-child {
     padding-left: 0.5rem;
     border: 0.5px solid cyan;
     border-radius: 5px;
+    white-space: normal;
   }
   footer {
     bottom: 0;
