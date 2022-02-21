@@ -10,7 +10,7 @@ function Homepage() {
   useEffect(() => {
     fakeRequest().then(() => {
       var line = document.getElementById("line");
-      var txts = ["Competitive Coder", "Web Developer"];
+      var txts = ["Tech Enthusiast", "Web Developer","Problem Solver"];
       var speed = 100;
       async function typewriter(txt) {
         for (let i = 0; i < txt.length; i++) {
