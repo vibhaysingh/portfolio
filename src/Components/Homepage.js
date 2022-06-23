@@ -1,8 +1,7 @@
-import React from "react";
-import "./Homepage.css";
-import myimgsvg from "../images/homepage_illus.svg";
-import { Rotate } from "react-reveal";
 import { useEffect } from "react";
+import { Rotate } from "react-reveal";
+import myimgsvg from "../images/homepage_illus.svg";
+import "./Homepage.css";
 function Homepage() {
   function fakeRequest() {
     return new Promise((resolve) => setTimeout(() => resolve(), 100));
@@ -10,7 +9,7 @@ function Homepage() {
   useEffect(() => {
     fakeRequest().then(() => {
       var line = document.getElementById("line");
-      var txts = ["Competitive Coder", "Web Developer"];
+      var txts = ["Intern @Samsung Banglore"];
       var speed = 100;
       async function typewriter(txt) {
         for (let i = 0; i < txt.length; i++) {
@@ -64,7 +63,7 @@ function Homepage() {
         </div>
         <div className="resume-btn">
           <a
-            href="https://drive.google.com/file/d/1OkokjhLPmBB_P3h4rpTjOrsRqYLKwD3z/view?usp=drivesdk"
+            href="https://docs.google.com/document/d/1p5M--SDQNw0VKOlz99hm4STo8lmcFqXVKzWPuC-j-WQ/edit?usp=sharing"
             target="_blank"
           >
             <button>RESUME</button>
