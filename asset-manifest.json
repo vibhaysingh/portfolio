@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.3212532d.chunk.css",
-    "main.js": "/portfolio/static/js/main.11181e41.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.11181e41.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.a1694670.chunk.css",
+    "main.js": "/portfolio/static/js/main.4045aef8.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.4045aef8.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.a9f76519.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.a9f76519.js.map",
-    "static/js/2.e80640fd.chunk.js": "/portfolio/static/js/2.e80640fd.chunk.js",
-    "static/js/2.e80640fd.chunk.js.map": "/portfolio/static/js/2.e80640fd.chunk.js.map",
+    "static/js/2.ef55bba7.chunk.js": "/portfolio/static/js/2.ef55bba7.chunk.js",
+    "static/js/2.ef55bba7.chunk.js.map": "/portfolio/static/js/2.ef55bba7.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.3212532d.chunk.css.map": "/portfolio/static/css/main.3212532d.chunk.css.map",
-    "static/js/2.e80640fd.chunk.js.LICENSE.txt": "/portfolio/static/js/2.e80640fd.chunk.js.LICENSE.txt",
+    "static/css/main.a1694670.chunk.css.map": "/portfolio/static/css/main.a1694670.chunk.css.map",
+    "static/js/2.ef55bba7.chunk.js.LICENSE.txt": "/portfolio/static/js/2.ef55bba7.chunk.js.LICENSE.txt",
+    "static/media/Flipkart-Clone.e654d96d.png": "/portfolio/static/media/Flipkart-Clone.e654d96d.png",
     "static/media/Quizzer App.bcbca7b9.png": "/portfolio/static/media/Quizzer App.bcbca7b9.png",
     "static/media/Recipe App.cd6ed9c4.png": "/portfolio/static/media/Recipe App.cd6ed9c4.png",
-    "static/media/Task Manager.87a61b8e.png": "/portfolio/static/media/Task Manager.87a61b8e.png",
     "static/media/homepage_illus.e8c3237e.svg": "/portfolio/static/media/homepage_illus.e8c3237e.svg",
+    "static/media/taskmanagerfs.bf881d59.png": "/portfolio/static/media/taskmanagerfs.bf881d59.png",
     "static/media/worldmap.e62b9605.png": "/portfolio/static/media/worldmap.e62b9605.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a9f76519.js",
-    "static/js/2.e80640fd.chunk.js",
-    "static/css/main.3212532d.chunk.css",
-    "static/js/main.11181e41.chunk.js"
+    "static/js/2.ef55bba7.chunk.js",
+    "static/css/main.a1694670.chunk.css",
+    "static/js/main.4045aef8.chunk.js"
   ]
 }
