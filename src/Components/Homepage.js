@@ -9,7 +9,11 @@ function Homepage() {
   useEffect(() => {
     fakeRequest().then(() => {
       var line = document.getElementById("line");
+<<<<<<< HEAD
       var txts = ["Intern @Samsung Banglore"];
+=======
+      var txts = ["Tech Enthusiast", "Web Developer","Problem Solver"];
+>>>>>>> 70d8aacdfaec766208ed91ed4eb2d83d63132f37
       var speed = 100;
       async function typewriter(txt) {
         for (let i = 0; i < txt.length; i++) {

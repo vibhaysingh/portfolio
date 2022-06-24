@@ -41,6 +41,7 @@
   position: absolute;
   bottom: 35%;
   width: 100%;
+  word-wrap: break-word;
   /* border: 2px solid red; */
 }
 .contact-intro h3 {
